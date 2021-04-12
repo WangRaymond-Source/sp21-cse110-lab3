@@ -8,9 +8,6 @@
     <link rel="icon" href="favicon.ico">
     </head>
     <body>
-        <footer>
-            <p><b>Author: Raymond Wang</b><br>
-        </footer>
         <audio controls>
             <source src="Birds-chirping-sound-effect.ogg" type="audio/ogg">
             <source src = "Birds-chirping-sound-effect.mp3" type="audio/mpeg">
@@ -163,20 +160,25 @@
                         <source src="SquirrelEscapesFromHungryHawk.ogg" type="video/ogg">
                     </video>
                 </section>
-                <form action="/action_page.php">
-                    <fieldset>
-                     <legend>New Entry:</legend>
-                     <label for="date">Date:</label>
-                     <input type="text" id="date" name="date"><br><br>
-                     <label for="num">Entry Number:</label>
-                     <input type="text" id="num" name="num"><br><br>
-                     <label for="story">Story:</label>
-                     <input type="story" id="story" name="story"><br><br>
-                     
-                     <input type="submit" value="Submit">
-                    </fieldset>
-                   </form>
+                <div id = "newEntry">
+                    <form id="addEntry">
+                        <fieldset>
+                        <legend>New Entry:</legend>
+                        <label for="date">Date:</label>
+                        <input type="text" id="date" name="date"><br><br>
+                        <label for="num">Entry Number:</label>
+                        <input type="text" id="num" name="num"><br><br>
+                        <label for="story">Story:</label>
+                        <textarea id="story" name="story" rows="4" cols="50">
+                        
+                        <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </main>
+        <footer>
+            <p><b>Author: Raymond Wang</b><br>
+        </footer>
     </body>
 </html>
