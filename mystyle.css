@@ -8,6 +8,7 @@ h2{
 }
 .list{
     background-color: #ffbf00;
+    margin: 25px 50px 75px 100px;
 }
 /*change the image style*/ 
 img {
@@ -16,4 +17,5 @@ img {
     border-width: 2px;
     border-radius: 8px;
 }
+
 
