@@ -1,4 +1,11 @@
 /* This is my css for my webpage */
+/*This changes the color of my lists*/
 h3 {
     color: slategray;
+}
+h2{
+    columns: hsl(180, 50%, 50%);
+}
+#Entry1{
+    background-color: #ffbf00;
 }
