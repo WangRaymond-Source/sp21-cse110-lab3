@@ -6,6 +6,12 @@ h3 {
 h2{
     columns: hsl(180, 50%, 50%);
 }
-#Entry1{
+.Entry1{
     background-color: #ffbf00;
+}
+.Entry2{
+    background-color: rgb(255,191,0);
+}
+.Entry3{
+    background-color: hsl(45,100%,50%);
 }
