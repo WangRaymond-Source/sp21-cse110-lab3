@@ -14,7 +14,9 @@ h1{
     position: relative;
 }
 .list{
-    background-color: #ae00ff;
+    border-style: dotted ;
+    border-color: black ;
+    background-color: #ffd900;
     padding: 10px 10px 10px 10px;
     width: 127mm;
     height: 10mm;
