@@ -6,6 +6,8 @@ h3 {
 h2{
     color: hsl(180, 50%, 50%);
     text-align: left;
+    text-decoration: underline;
+    
 }
 .list{
     background-color: #ffbf00;
