@@ -9,4 +9,11 @@ h2{
 .list{
     background-color: #ffbf00;
 }
+/*change the image style*/ 
+img {
+    border-style: groove;
+    border-color: tomato;
+    border-width: 2px;
+    border-radius: 8px;
+}
 
