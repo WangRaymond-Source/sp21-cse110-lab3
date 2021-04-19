@@ -10,7 +10,7 @@ h2{
     
 }
 h1{
-
+    position: static;
 }
 .list{
     background-color: #ffbf00;
@@ -21,11 +21,9 @@ img {
     border-style: groove;
     border-color: tomato;
     border-width: 2px;
-    border-radius: 8px;
+    border-radius: 1cm;
 }
-title{
-    position: static;
-}
+
 
 
 
