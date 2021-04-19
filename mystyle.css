@@ -1,4 +1,166 @@
 /* This is my css for my webpage */
+/*This changes the color of my lists*/
 h3 {
+	font-size: 1em;
     color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: hsl(180, 50%, 50%);
+    text-align: left;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px
+    margin-bottom: 10px
+    margin-left: 10px
+    margin-right: 10px
+}
+h1{
+    position: relative;
+    margin : auto;
+}
+p, li{
+	border-color: black ;
+}
+.list{
+    border-style: ridge;
+    
+    background-color: #ffd900;
+    padding: 10px 15px 10px 10px;
+    width: 75mm;
+    height: 8mm;
+    padding-bottom: 10mm;
+    
+}
+.list1{
+    border-style: ridge;
+    background-color: #ffd900;
+    padding: 10px 15px 10px 10px;
+    width: 200mm;
+    height: 8mm;
+    padding : 1mm 1mm 10mm 1mm;
+}
+.list2{
+    border-style: ridge;
+    background-color: #ffd900;
+    padding: 10px 15px 10px 10px;
+    width: 200mm;
+    height: 8mm;
+    padding-bottom: 10mm;
+    padding-top: 1mm;
+    padding-left: 1mm;
+    padding right: 1mm;
+}
+.list3{
+    border-style: ridge;
+    background-color: #ffd900;
+    padding: 10px 15px 10px 10px;
+    width: 200mm;
+    height: 8mm;
+    padding-bottom: 10mm;
+    padding-top: 1mm;
+    padding-left: 1mm;
+    padding right: 1mm;
+}
+.list4{
+    border-style: ridge;
+    background-color: #ffd900;
+    padding: 10px 15px 10px 10px;
+    width: 200mm;
+    height: 8mm;
+    padding-bottom: 10mm;
+    padding-top: 1mm;
+    padding-left: 1mm;
+    padding right: 1mm;
+}
+/*change the image style*/ 
+img {
+    border-style: groove;
+    border-color: tomato;
+    border-width: 2px;
+    border-radius: 1cm;
+    position: static;	
+}
+p {
+    border-style: solid;
+    background-color: rgb(173, 216, 230);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a:visited {
+    color: red;
+}
+a:hover {
+    color: pink;
+}
+a:active {
+    color: green
+}
+.p1{
+	margin: 100px 1px 1px 1px;
+}
+@media screen and (max-width: 600px) {
+    video {
+		height: 340px;
+		width: 420px;
+		max-width: 1100px;
+		min-width: 100px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	video {
+		height: 340px;
+		width: 420px;
+		max-width: 1000px;
+		min-width: 200px;
+	}
+}
+a {
+	display : block;
+}
+h1.hidden {
+	display : none;
+}
+#first{
+	position: static;
+	padding-left: 10px;
+}
+*{
+	color: blue;
+}
+a[target] {
+	background-color:lightgreen;
+	width: 9ex;
+}
+form option{
+	background-color: red;
+	font-size: 1.3rem;
+}
+section > h3 {
+	color: slategray;
+}
+form > fieldset {
+	padding-left: 10px;
+}
+label + input{
+	color: brown;
+}
+li.list{
+	color: black;
+}
+label ~ textarea{
+	color: black;
+}
+.grid{
+	display : grid;
+	grid-template-rows: auto auto auto auto;
+	justify-content: space-between;
+	grid-area: myArea;
+}
+.list5{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex: 50%;
 }
