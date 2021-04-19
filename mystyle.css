@@ -11,12 +11,12 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    position: static;
+    position: relative;
 }
 .list{
     background-color: #ffbf00;
     padding: 10px 10px 10px 10px;
-    width: 125mm;
+    width: 127mm;
     height: 10mm;
 }
 /*change the image style*/ 
@@ -25,6 +25,7 @@ img {
     border-color: tomato;
     border-width: 2px;
     border-radius: 1cm;
+    position: static;
 }
 p {
     border: 1px solid black;
