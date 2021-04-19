@@ -4,11 +4,12 @@ h3 {
     color: slategray;
 }
 h2{
-    columns: hsl(180, 50%, 50%);
+    color: hsl(180, 50%, 50%);
+    text-align: left;
 }
 .list{
     background-color: #ffbf00;
-    margin: auto;
+
 }
 /*change the image style*/ 
 img {
@@ -17,14 +18,6 @@ img {
     border-width: 2px;
     border-radius: 8px;
 }
-#newEntry{
-    margin: 100px 100px 100px 100px;
-}
-#num{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
