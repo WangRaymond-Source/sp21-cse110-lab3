@@ -14,7 +14,7 @@ h1{
     position: relative;
 }
 .list{
-    background-color: #ffbf00;
+    background-color: #ae00ff;
     padding: 10px 10px 10px 10px;
     width: 127mm;
     height: 10mm;
@@ -32,8 +32,9 @@ p {
     background-color: rgb(173, 216, 230);
     font-family: "Lucida Console", "Courier New", monospace;
 }
-.p1{
-    padding: center;
+#Entry1{
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
 }
 
 
