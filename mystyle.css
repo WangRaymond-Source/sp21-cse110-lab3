@@ -8,7 +8,7 @@ h2{
 }
 .list{
     background-color: #ffbf00;
-    margin: 25px 50px 75px 100px;
+    margin: auto;
 }
 /*change the image style*/ 
 img {
@@ -16,6 +16,15 @@ img {
     border-color: tomato;
     border-width: 2px;
     border-radius: 8px;
+}
+#newEntry{
+    margin: 100px 100px 100px 100px;
+}
+#num{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
